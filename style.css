@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -42,9 +43,9 @@ ul > a {
   list-style: none;
   color: #e6dcd3;
   text-transform: uppercase;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Poppins", serif;
   font-size: 17px;
-  font-weight: 800px;
+  font-weight: 900px;
   text-decoration: solid;
   line-height: 6;
   display: inline;
@@ -57,7 +58,7 @@ ul {
   padding-left: 10px;
 }
 ul > a:hover {
-  color: #cfc5bd;
+  color: #b4ada7;
 }
 .hamburger {
   /*border: 1px solid #a8896f;
@@ -88,50 +89,188 @@ ul > a:hover {
 .head-txt {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
 }
 .head-txt {
   position: absolute;
   top: 230px;
-  left: 18%;
+  left: 20%;
 }
 .main-txt {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
   color: white;
 }
 .main-txt {
   position: absolute;
   top: 285px;
-  left: 18%;
+  left: 20%;
 }
 .last-txt {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
   color: white;
 }
 .last-txt {
   position: absolute;
   top: 335px;
-  left: 18%;
+  left: 20%;
 }
 .v3 {
   border-left: 2px solid #a8896f;
   position: absolute;
   left: 5%;
-  height: 900px;
+  height: 2100px;
 }
 .v4 {
   border-left: 2px solid #a8896f;
   position: absolute;
   left: 95%;
-  height: 900px;
+  height: 2100px;
 }
 .hr-2 {
   border: #a8896f 1px solid;
   width: 100%;
   position: absolute;
-  top: 830px;
+  top: 1130px;
+}
+.sec {
+  /* display: flex;
+  flex-direction: column; */
+}
+.sec > h2,
+.para-sec-2-1,
+.para-sec-2-2 {
+  position: relative;
+  top: 850px;
+}
+.sec > h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 42px;
+  font-weight: 550;
+  color: #2c2926;
+  text-align: center;
+}
+.para-sec-2-1 {
+  color: #2c2926;
+  font-size: 23px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: 285px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.para-sec-2-2 {
+  color: #2c2926;
+  font-size: 23px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: 385px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.btn-sec-2 {
+  background-color: #a15231;
+  font-family: "Poppins", serif;
+  color: #fbfaf8;
+  font-size: 18px;
+  padding: 5px 70px;
+  border: none;
+  position: relative;
+  top: 870px;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-sec-2:hover {
+  background-color: #bb623b;
+  border: #a15231 solid 1px;
+}
+.hr-3 {
+  border: #a8896f 1px solid;
+  width: 100%;
+  position: absolute;
+  top: 1700px;
+}
+.intro{
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.intro>.intro-img{
+  position: relative;
+  top: 906px;
+  margin-left: 68px;
+  max-width: 425px;
+}
+.intro>.intro-material{
+  position: relative;
+  top: 1000px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 50px; */
+}
+.intro-h, .intro-p{
+  margin-left: 80px;
+}
+.intro-h{
+  font-size: 44px;
+  color: #2c2926;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.intro-p{
+  font-size: 21px;
+  width: 400px;
+  color: #2c2926;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 12px;
+}
+.frame{
+  position: relative;
+  top: 906px;
+  background-color: white;
+  width: 80px;
+  height: 650px;
+  border-top: #a8896f 2px solid;
+}
+.btn-sec-3{
+  position: relative;
+  top: 50px;
+  background-color: #a15231;
+  color: #fbfaf8;
+  font-size: 18px;
+  padding: 12px 39px;
+  border: none;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 79px;
+  text-transform: uppercase;
+  font-family: "Poppins", serif;
+}
+.btn-sec-3:hover {
+  background-color: #bb623b;
+  border: #a15231 solid 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.hr-4{
+  border: #a8896f 1px solid;
+  width: 1212px;
+  margin-left: 68px;
+  position: absolute;
+  top: 2365px;
+
 }
