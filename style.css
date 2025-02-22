@@ -16,7 +16,7 @@
   height: 305px;
 }
 .hr {
-  border: #a8896f 1px solid;
+  border-bottom: #a8896f 2px solid;
   position: absolute;
   left: 5%;
   width: 1214px;
@@ -84,7 +84,6 @@ ul > a:hover {
   position: relative;
   text-align: center;
   color: white;
-  border-top: 1px;
 }
 .head-txt {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -118,20 +117,8 @@ ul > a:hover {
   top: 335px;
   left: 20%;
 }
-.v3 {
-  border-left: 2px solid #a8896f;
-  position: absolute;
-  left: 5%;
-  height: 2100px;
-}
-.v4 {
-  border-left: 2px solid #a8896f;
-  position: absolute;
-  left: 95%;
-  height: 2100px;
-}
 .hr-2 {
-  border: #a8896f 1px solid;
+  border-bottom: #a8896f 2px solid;
   width: 100%;
   position: absolute;
   top: 1130px;
@@ -196,40 +183,42 @@ ul > a:hover {
   border: #a15231 solid 1px;
 }
 .hr-3 {
-  border: #a8896f 1px solid;
-  width: 100%;
+  border-bottom: #a8896f 2px solid;
+  width: 1214px;
   position: absolute;
   top: 1700px;
+  left: 5%;
 }
-.intro{
+.intro {
   display: flex;
   /* justify-content: space-evenly; */
 }
-.intro>.intro-img{
+.intro > .intro-img {
   position: relative;
   top: 906px;
   margin-left: 68px;
   max-width: 425px;
 }
-.intro>.intro-material{
+.intro > .intro-material {
   position: relative;
   top: 1000px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: small;
   display: flex;
   flex-direction: column;
   /* margin-bottom: 50px; */
 }
-.intro-h, .intro-p{
+.intro-h,
+.intro-p {
   margin-left: 80px;
 }
-.intro-h{
+.intro-h {
   font-size: 44px;
   color: #2c2926;
   font-weight: 700;
   line-height: 1.2;
 }
-.intro-p{
+.intro-p {
   font-size: 21px;
   width: 400px;
   color: #2c2926;
@@ -237,7 +226,7 @@ ul > a:hover {
   line-height: 1.2;
   margin-top: 12px;
 }
-.frame{
+.frame {
   position: relative;
   top: 906px;
   background-color: white;
@@ -245,7 +234,7 @@ ul > a:hover {
   height: 650px;
   border-top: #a8896f 2px solid;
 }
-.btn-sec-3{
+.btn-sec-3 {
   position: relative;
   top: 50px;
   background-color: #a15231;
@@ -266,11 +255,128 @@ ul > a:hover {
   padding-left: 100px;
   padding-right: 100px;
 }
-.hr-4{
-  border: #a8896f 1px solid;
+.hr-4 {
+  border-bottom: #a8896f 2px solid;
   width: 1212px;
   margin-left: 68px;
   position: absolute;
   top: 2365px;
+}
+section > .circle {
+  background-color: hsl(51, 17%, 43%, 1);
+  border-radius: 50%;
+  width: 278px;
+  height: 278px;
+  margin-left: 530px;
+  display: inline-block;
+  position: relative;
+  top: 915px;
+  mix-blend-mode: multiply;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #e6dcd3;
+  text-transform: uppercase;
+}
+section > .circle-2 {
+  background-color: hsl(18, 53%, 41%, 1);
+  border-radius: 50%;
+  width: 278px;
+  height: 278px;
+  position: relative;
+  top: 860px;
+  margin-left: 420px;
+  display: inline-block;
+  mix-blend-mode: multiply;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #e6dcd3;
+  text-transform: uppercase;
+}
+section > .circle-3 {
+  background-color: hsl(231, 15%, 25%, 1);
+  border-radius: 50%;
+  width: 278px;
+  height: 278px;
+  position: relative;
+  top: 580px;
+  margin-left: 650px;
+  display: inline-block;
+  mix-blend-mode: multiply;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #e6dcd3;
+  text-transform: uppercase;
+}
+.c-p-1 {
+  margin-left: 115px;
+  margin-top: 35px;
+}
+.c-p-2 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.c-p-3 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.circle > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #e6dcd3;
+  text-align: center;
+  margin-top: 75px;
+}
 
+.circle-2 > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #e6dcd3;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.circle-3 > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #e6dcd3;
+  text-align: center;
+  margin-top: 35px;
+}
+.v-short-line-u {
+  border-left: 2px solid #a8896f;
+  position: relative;
+  left: 50%;
+  top: 918px;
+  height: 175px;
+}
+.v-short-line-b {
+  border-left: 2px solid #a8896f;
+  position: relative;
+  left: 50%;
+  top: 515px;
+  height: 175px;
+  z-index: -1;
+}
+
+.hr-5 {
+  border-bottom: 2px solid #a8896f;
+  width: 1214px;
+  margin-left: 68px;
+  position: relative;
+  top: 515px;
+}
+.v3 {
+  border-left: 2px solid #a8896f;
+  position: absolute;
+  left: 5%;
+  height: 3000px;
+}
+.v4 {
+  border-left: 2px solid #a8896f;
+  position: absolute;
+  left: 95%;
+  height: 3000px;
 }
